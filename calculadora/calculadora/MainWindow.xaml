@@ -1,0 +1,32 @@
+﻿<Window x:Class="calculadora.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:calculadora"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="802" Width="585">
+    <Grid Background="Black">
+        <Button x:Name="Clear" Content="CLEAR" HorizontalAlignment="Left" Margin="46,192,0,0" VerticalAlignment="Top" Height="92" Width="104" Background="White" FontSize="24" FontWeight="Bold" Click="Clear_Click_1"/>
+        <Button x:Name="Sign" Content="+/-" HorizontalAlignment="Left" Margin="174,192,0,0" VerticalAlignment="Top" Height="92" Width="104" Background="#FFD6A2E6" FontSize="36" FontWeight="Bold" Click="Sign_Click_1"/>
+        <Button x:Name="Percent" Content="%" HorizontalAlignment="Left" Margin="300,192,0,0" VerticalAlignment="Top" Height="92" Width="104" Background="#FFD6A2E6" FontWeight="Bold" FontSize="36" Click="Percent_Click_1" RenderTransformOrigin="0.351,-0.158"/>
+        <Button x:Name="Divide" Content="/" HorizontalAlignment="Left" Margin="449,192,0,0" VerticalAlignment="Top" Height="92" Width="104" Background="#FFBE29EC" FontWeight="Bold" FontSize="36" Click="Divide_Click_1"/>
+        <Button x:Name="Mul" Content="*" HorizontalAlignment="Left" Margin="449,317,0,0" VerticalAlignment="Top" Height="92" Width="104" Background="#FFBE29EC" FontWeight="Bold" FontSize="36" Click="Mul_Click_1"/>
+        <Button x:Name="Minus" Content="-" HorizontalAlignment="Left" Margin="449,436,0,0" VerticalAlignment="Top" Height="92" Width="104" Background="#FFBE29EC" FontSize="48" Click="Minus_Click" FontWeight="Bold"/>
+        <Button x:Name="Equal" Content="=" HorizontalAlignment="Left" Margin="449,658,0,0" VerticalAlignment="Top" Height="92" Width="104" Background="#FFD61E72" FontWeight="Bold" FontSize="48" Click="Equal_Click"/>
+        <Button x:Name="Nine" Content="9" HorizontalAlignment="Left" Margin="300,317,0,0" VerticalAlignment="Top" Height="92" Width="104" Background="#FFECE171" FontWeight="Bold" FontSize="36" Click="Nine_Click"/>
+        <Button x:Name="Eight" Content="8" HorizontalAlignment="Left" Margin="174,317,0,0" VerticalAlignment="Top" Height="92" Width="104" Background="#FFECE171" FontWeight="Bold" FontSize="36" Click="Eight_Click"/>
+        <Button x:Name="Seven" Content="7" HorizontalAlignment="Left" Margin="46,317,0,0" VerticalAlignment="Top" Height="92" Width="104" Background="#FFECE171" FontSize="36" FontWeight="Bold" Click="Seven_Click"/>
+        <Button x:Name="Four" Content="4" HorizontalAlignment="Left" Margin="46,436,0,0" VerticalAlignment="Top" Height="92" Width="104" Background="#FFECE171" FontWeight="Bold" FontSize="36" Click="Four_Click"/>
+        <Button x:Name="Five" Content="5" HorizontalAlignment="Left" Margin="174,436,0,0" VerticalAlignment="Top" Height="92" Width="104" Background="#FFECE171" FontWeight="Bold" FontSize="36" Click="Five_Click"/>
+        <Button x:Name="Six" Content="6" HorizontalAlignment="Left" Margin="300,436,0,0" VerticalAlignment="Top" Height="92" Width="104" Background="#FFECE171" FontWeight="Bold" FontSize="36" Click="Six_Click"/>
+        <Button x:Name="One" Content="1" HorizontalAlignment="Left" Margin="46,549,0,0" VerticalAlignment="Top" Height="92" Width="104" Background="#FFECE171" FontWeight="Bold" FontSize="36" Click="One_Click"/>
+        <Button x:Name="Two" Content="2" HorizontalAlignment="Left" Margin="174,549,0,0" VerticalAlignment="Top" Height="92" Width="104" Background="#FFECE171" FontWeight="Bold" FontSize="36" Click="Button_Click"/>
+        <Button x:Name="Three" Content="3" HorizontalAlignment="Left" Margin="300,549,0,0" VerticalAlignment="Top" Height="92" Width="104" Background="#FFECE171" FontWeight="Bold" FontSize="36" Click="Three_Click"/>
+        <Button x:Name="Dot" Content="." HorizontalAlignment="Left" Margin="300,658,0,0" VerticalAlignment="Top" Height="92" Width="104" Background="#FFD6A2E6" FontWeight="Bold" FontSize="36" Click="Dot_Click"/>
+        <Button x:Name="Sumar" Content="+" HorizontalAlignment="Left" Margin="449,549,0,0" VerticalAlignment="Top" Height="92" Width="104" Background="#FFAC29EC" FontWeight="Bold" FontSize="36" Click="Sumar_Click"/>
+        <Label x:Name="result" Content="0" HorizontalAlignment="Left" Margin="46,49,0,0" VerticalAlignment="Top" Height="106" Width="500" Background="#FF72DEB9" FontWeight="Bold" FontSize="36" Padding="5,5,5,5"/>
+        <Button x:Name="Zero" Content="0" HorizontalAlignment="Right" Margin="0,658,307,0" VerticalAlignment="Top" Height="92" Width="232" FontSize="36" FontWeight="Bold" Click="Zero_Click" Background="White"/>
+
+    </Grid>
+</Window>
